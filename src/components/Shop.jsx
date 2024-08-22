@@ -6,7 +6,7 @@ import { useDarkMode } from "../context/DarkModeProvider";
 
 export default function Shop() {
   const { cart } = CartState();
-  const productArray = [...Array(30)].map(() => ({
+  const productArray = [...Array(20)].map(() => ({
     id: faker.string.uuid(),
     name: faker.commerce.productName(),
     price: faker.commerce.price(),
